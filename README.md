@@ -10,30 +10,29 @@ This folder presents the code for running the two pilots.
 
 This folder contains the models presented in the paper, as well as the R code needed to evaluate the models and generate figures. 
 
-### data
+#### data
 
 This folder contains pragmatic listener (PL) data files generated from evaluating the models in model-evaluation.R.
 
-### graphs
+#### graphs
 
 This folder contains plots of the model predictions generated in model-evaluation.R.
 
-
-### model-1a.wppl
+#### model-1a.wppl
 
 This is the model for sentence (1a); it is identical to the model described in section 3.1 of Scontras & Tonhauser 2026 (Meaning), a simplified version of the model described in section 3 of Scontras & Tonhauser 2025 (SuB).
 
-### model-1b-conditional.wppl
+#### model-1b-conditional.wppl
 
 This is the model for the conditional sentence (1b).
 
-### model-1c-conjunction.wppl
+#### model-1c-conjunction.wppl
 
 This is the model for the conjunction sentence (1c).
 
-### model-evaluation.R
+#### model-evaluation.R
 
-This is the R code used to evaluate the models, generate the model predictions and create Fig.1.
+This is the R code used to evaluate the models, generate the model predictions and create Fig.1. The predictions for example (10) are generated here from the model-1a.wppl. This is also where the pragmatic listener inferences for the utterance of the first conjunct of (1b) are generated.
 
 ## results
 

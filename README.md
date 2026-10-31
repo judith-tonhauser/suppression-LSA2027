@@ -26,10 +26,6 @@ This is the model for sentence (1a); it is identical to the model described in s
 
 This model is identical to model-1a except that the pragmatic listener is not provided a QUD but infers it.
 
-#### model-1a-CSS-and-BEL.wppl
-
-This is identical to model-1a but it returns the pragmatic listener's inferences to CSS and BEL (instead of to CSS and the private assumptions). This model is used to generate Fig. 2.
-
 #### model-1b-conditional.wppl
 
 This is the model for the conditional sentence (1b).

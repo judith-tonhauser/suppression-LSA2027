@@ -10,16 +10,22 @@ This folder presents the code for running the two pilots.
 
 This folder contains the models presented in the paper, as well as the R code needed to evaluate the models and generate figures. 
 
-###
+### data
 
-###
+### graphs
 
-###
+### model-1a.wppl
 
-###
+### model-1b-conditional.wppl
 
-###
+### model-1c-conjunction.wppl
+
+### model-evaluation.R
 
 ## results
 
 This folder contains the data for the two pilots, as well as the R analysis scripts to analyze the data and generate the result plots (panels a and b of Fig.4 in paper). 
+
+## other files
+
+### helpers.R contains R code needed in both the directory 'models' and 'results'.

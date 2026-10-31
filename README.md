@@ -20,19 +20,19 @@ This folder contains plots of the model predictions generated in model-evaluatio
 
 #### model-1a.wppl
 
-This is the model for sentence (1a); it is identical to the model described in section 3.1 of Scontras & Tonhauser 2026 (Meaning), a simplified version of the model described in section 3 of Scontras & Tonhauser 2025 (SuB).
+This is the model for sentence (1a) discussed in section 2; it is identical to the model described in section 3.1 of Scontras & Tonhauser 2026 (Meaning), a simplified version of the model described in section 3 of Scontras & Tonhauser 2025 (SuB).
 
 #### model-1a-infer-QUD.wppl
 
-This model is identical to model-1a except that the pragmatic listener is not provided a QUD but infers it.
+This model is identical to model-1a except that the pragmatic listener is not provided a QUD but infers it. This model is referred to in section 4.
 
 #### model-1b-conditional.wppl
 
-This is the model for the conditional sentence (1b).
+This is the model for the conditional sentence (1b), discussed in section 3.
 
 #### model-1c-conjunction.wppl
 
-This is the model for the conjunction sentence (1c).
+This is the model for the conjunction sentence (1c), discussed in section 3.
 
 #### model-evaluation.R
 

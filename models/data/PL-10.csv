@@ -1,7 +1,0 @@
-utterance,qud,id,CC,prob,pa_type
-pos-know-pos-dance,BEL? QUD,1,1,0.6664295809107076,CC=0or1
-pos-know-pos-dance,BEL? QUD,2,1,0.33321479045535374,CC=1
-pos-know-pos-dance,BEL? QUD,3,1,3.556286339390391e-4,CC=0or1
-pos-know-pos-dance,CC? QUD,1,1,0.500005668998773,CC=0or1
-pos-know-pos-dance,CC? QUD,2,1,0.25000283449938643,CC=0or1
-pos-know-pos-dance,CC? QUD,3,1,0.24999149650184072,CC=1

@@ -12,7 +12,12 @@ This folder contains the models presented in the paper, as well as the R code ne
 
 ### data
 
+This folder contains pragmatic listener (PL) data files generated from evaluating the models in model-evaluation.R.
+
 ### graphs
+
+This folder contains plots of the model predictions generated in model-evaluation.R.
+
 
 ### model-1a.wppl
 

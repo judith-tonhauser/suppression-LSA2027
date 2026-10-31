@@ -1,0 +1,7 @@
+utterance,qudBias,state.CC,state.BEL,prob
+neg-know-pos-dance,BEL?,1,0,0.9625064301051285
+neg-know-pos-dance,BEL?,0,0,0.03552400238039712
+neg-know-pos-dance,BEL?,0,1,0.001969567514474472
+neg-know-pos-dance,CC?,0,1,0.4997615292583639
+neg-know-pos-dance,CC?,0,0,0.25437480659185974
+neg-know-pos-dance,CC?,1,0,0.24586366414977676

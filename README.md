@@ -1,4 +1,4 @@
-# git-suppression-LSA2027
+# suppression-LSA2027
 
 This repository contains the models presented in Scontras & Tonhauser "Suppressing projection inferences under a reasoning-based analysis", the analysis scripts used to derive the model predictions and the figures presented in the paper, as well as the code for running and analyzing the results of the two pilots.
 
@@ -21,6 +21,14 @@ This folder contains plots of the model predictions generated in model-evaluatio
 #### model-1a.wppl
 
 This is the model for sentence (1a); it is identical to the model described in section 3.1 of Scontras & Tonhauser 2026 (Meaning), a simplified version of the model described in section 3 of Scontras & Tonhauser 2025 (SuB).
+
+#### model-1a-infer-QUD.wppl
+
+This model is identical to model-1a except that the pragmatic listener is not provided a QUD but infers it.
+
+#### model-1a-CSS-and-BEL.wppl
+
+This is identical to model-1a but it returns the pragmatic listener's inferences to CSS and BEL (instead of to CSS and the private assumptions). This model is used to generate Fig. 2.
 
 #### model-1b-conditional.wppl
 

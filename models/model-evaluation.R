@@ -296,7 +296,7 @@ nrow(PL) #2
 
 write_csv(PL, file="data/PL-1c.csv")
 
-# Fig. 2: joint plots only BEL? QUD ----
+# Fig. 1: joint plots only BEL? QUD ----
 
 # read model data
 PL1a = read_csv("data/PL-1a.csv")
@@ -364,9 +364,48 @@ ggplot(filter(d, measure %in% c("CSS:1", "CSS:1 privately assumed")),
   theme(legend.position = "top") 
 ggsave("graphs/predProb-by-example.pdf",width=4,height=2.5)
 
-# run original model for "Charley speaks Spanish" -----
+# Fig. 2: predictions for CSS by QUD from neg-know ----
 
-#### model for 1a ----
+# read model data
+PL = read_csv("data/PL-1a-and-10.csv")
+nrow(PL) #52
+
+# reduce to neg-know utterances and inferences to CC
+PL = PL %>%
+  filter(state.CC == 1) %>%
+  filter(utterance == "neg-know-pos-dance") %>%
+  mutate(utterance = recode(utterance, "neg-know-pos-dance" = "neg-know")) %>%
+  select(-c(id,pa_type,pa.BEL,pa.CC)) %>%
+  rename("CSS" = "state.CC") %>%
+  rename("qud" = "qudBias") %>%
+  mutate(qud = recode(qud, "BEL?" = "BEL? QUD", "CC?" = "CSS? QUD"))
+PL
+nrow(PL) #16
+
+# remove duplicate rows
+PL = PL %>%
+  distinct()
+PL
+nrow(PL) #6
+
+PL2 = PL %>%
+  group_by(qud) %>%
+  summarize(prob = sum(prob))
+PL2
+
+# plot 
+ggplot(data=PL2, aes(x=qud, y=prob)) +
+  geom_bar(stat = "identity",width = 0.3, fill="black",color = "black") +
+  theme(legend.position="top") +
+  theme(axis.text.y = element_text(size=10)) +
+  #theme(axis.title.x=element_blank()) +
+  ylab("predicted probability") +
+  xlab("QUD") +
+  scale_y_continuous(limits = c(-.1,1.1),breaks = c(0,0.2,0.4,0.6,0.8,1.0), labels = c("0",".2",".4",".6",".8","1")) 
+ggsave("graphs/CSS-predictions-by-QUD.pdf",height=2,width=3)
+
+# run model of 1a (original model) for "Charley speaks Spanish" -----
+
 model <- read_file("model-1a.wppl")
 model
 
@@ -375,7 +414,7 @@ eval_webppl <- function(command) {
   webppl(paste(model,command,sep="\n"))
 }
 
-#### call PL ----
+# call PL
 
 # define the relevant utterances
 utterances = c("pos-bare-pos-dance")
@@ -420,7 +459,7 @@ nrow(PL) #20
 
 write_csv(PL, file="data/PL-bare.csv")
 
-#### bare utterance  ----
+# read the data
 PL = read_csv("data/PL-bare.csv")
 nrow(PL) #20
 
@@ -464,3 +503,47 @@ PL_bare
 #1 BEL? QUD CC:1 observed          1    
 #2 BEL? QUD CC:1 privately assumed 0.242
 
+# run model 1a to infer QUD -----
+
+model <- read_file("model-1a-infer-QUD.wppl")
+model
+
+# evaluate the model
+eval_webppl <- function(command) {
+  webppl(paste(model,command,sep="\n"))
+}
+
+# call PL
+
+# define the relevant utterances
+utterances = c("neg-know-pos-dance")
+utterances
+
+PL = data.frame(utterance = character(),  
+                state.CC = numeric(), qud = character(), prob = numeric())
+PL
+
+for (u in utterances) {
+    PL_tmp = eval_webppl(paste("pragmaticListener('",u,"')",sep=""))
+    for (i in 1:nrow(PL_tmp)) {
+      PL = PL %>% 
+        add_row(utterance = u,
+                state.CC = PL_tmp$CC[i],
+                qud = PL_tmp$qud[i],
+                prob = PL_tmp$prob[i]) 
+    }
+}
+PL
+#view(PL)
+nrow(PL) #4
+
+# rename utterance, and quds
+PL2 = PL %>%
+  group_by(qud) %>%
+  summarise(prob = sum(prob)) %>%
+  mutate(qud = recode(qud, "ccQUD" = "CSS? QUD", "mcQUD" = "BEL? QUD"))
+PL2
+
+#   qud         prob
+#   CSS? QUD 0.00402
+#   BEL? QUD 0.996 

@@ -1,0 +1,3 @@
+utterance,qud,id,CC,prob,pa_type
+neg-know,BEL? QUD,1,1,1,CC=0or1
+neg-know,CC? QUD,1,1,1,CC=0or1

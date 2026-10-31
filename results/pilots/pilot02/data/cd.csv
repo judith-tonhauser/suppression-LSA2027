@@ -1,0 +1,75 @@
+rt,participantID,age,gender,language,amE,education,comments,item,qud,utterance,responseFIRST
+14110,14,39,male,English,AmE,graduated college,""":""""}",purse,belPost,neg-stop,0.11
+17332.09999999404,60,32,male,English,AmE,hold a higher degree,""":""""}",purse,belPost,neg-stop,0.1
+14819.60000000894,17,51,female,English,AmE,some college,""":""""}",purse,belPost,neg-know,0.84
+23038.10000014305,51,69,female,English,AmE,graduated college,""":""This was a fun study.""}",purse,belPost,neg-know,1
+16078.900000000373,10,29,non-binary,English,AmE,graduated high school,""":""""}",purse,belPost,neg-stop,0.75
+22782,44,38,male,English,AmE,graduated college,""":""""}",purse,why,neg-know,0.63
+17844.5,47,58,female,English,AmE,graduated college,""":""No issues.""}",purse,why,neg-know,0
+14550,53,28,female,English,AmE,graduated college,""":""""}",purse,belPost,neg-stop,0.76
+39054.5,64,65,male,English,AmE,some college,""":""""}",purse,why,neg-stop,0.24
+32173.69999999553,19,71,male,English,AmE,hold a higher degree,""":""none""}",purse,belPost,neg-know,0.25
+21902.60000000056,27,59,male,English,AmE,graduated college,""":""""}",purse,why,neg-know,0.5
+13032.10000000149,75,36,male,English,AmE,graduated college,""":""""}",purse,why,neg-know,0.09
+26628.79999999702,33,44,female,English,AmE,some high school,""":""""}",purse,belPost,neg-stop,0.87
+18278,23,44,male,English,AmE,graduated college,""":""""}",purse,belPost,neg-stop,0.85
+24916.599999999977,48,57,male,English,AmE,graduated college,""":""""}",purse,belPost,neg-know,1
+22533.19999999553,9,39,female,English,AmE,graduated college,""":""N/A""}",purse,why,neg-stop,0.37
+23858.90000000596,58,50,female,English,AmE,graduated college,""":""thank you and good luck!""}",purse,belPost,neg-stop,0.83
+28716,29,44,female,English,AmE,hold a higher degree,""":""""}",purse,why,neg-know,0.04
+41769,59,36,male,English,AmE,some college,""":""""}",purse,why,neg-know,0.23
+25518.20000000001,20,47,female,English,AmE,graduated college,""":""""}",purse,belPost,neg-stop,1
+19310.59999999404,37,25,female,English,AmE,hold a higher degree,""":""""}",purse,belPost,neg-stop,0.82
+43892.800000190735,65,54,female,English,AmE,hold a higher degree,""":""""}",purse,belPost,neg-know,1
+35906,78,30,male,English,AmE,graduated high school,""":""""}",purse,belPost,neg-stop,0.76
+20728.80000001192,12,38,preferNoToSay,English,AmE,graduated college,""":""n/a""}",purse,why,neg-stop,0.75
+61074.40000009537,30,27,male,English,AmE,graduated high school,""":""n/a""}",purse,belPost,neg-know,0.02
+36186.60000000894,43,49,female,English,AmE,hold a higher degree,""":""""}",purse,belPost,neg-know,0.52
+50307.79999995232,35,39,male,English,AmE,graduated college,""":""I didn't understand the tone of the two speakers at first.""}",purse,why,neg-stop,0
+39040.89999997616,36,51,male,English,AmE,hold a higher degree,""":""""}",purse,why,neg-know,0.01
+31333.39999999851,70,67,male,English,AmE,graduated high school,""":""""}",purse,why,neg-stop,0.71
+20840.200000286102,24,35,female,English,AmE,graduated high school,""":""""}",purse,belPost,neg-know,0.77
+19397,66,39,female,English,AmE,hold a higher degree,""":""Had no issues with the survey.""}",purse,belPost,neg-know,0.55
+27270.29999999888,13,67,female,English,AmE,graduated college,""":""I have always put my purse either on my lap, on the bench seat,or on the floor under my feet. It is a safety practice instilled in me years ago.""}",purse,why,neg-stop,0.82
+66833.89999961853,73,49,male,English,AmE,graduated college,""":""It seems just as likely Mary brought her purse (and worried about her wallet) than didn't bring her purse (and, I assume, not worry about her wallet).""}",purse,belPost,neg-stop,0.5
+53893.5,42,67,female,English,AmE,graduated college,".  Thanks for the survey.""}",purse,belPost,neg-stop,0
+68795.09999990463,6,40,male,English,AmE,graduated college,""":""""}",purse,belPost,neg-stop,0.2
+50176.10000000149,1,41,male,English,AmE,graduated college,""":""""}",purse,why,neg-stop,0.33
+51100.59999996424,74,36,non-binary,English,AmE,some college,""":""""}",purse,why,neg-stop,0.6
+15643.399999976158,40,67,female,English,AmE,graduated high school,""":""Seems like the couple know something about Mary's wallet.  Maybe they took it to show her it wasn't safe to keep her purse over the chair because they have been warning her she doesn't make smart moves with her things.  ""}",purse,belPost,neg-know,0.93
+16544.700000000186,4,23,female,English,AmE,graduated college,""":""""}",purse,why,neg-know,0.05
+29976.80000001192,11,55,female,English,AmE,graduated college,"""}",purse,why,neg-stop,0.91
+34019,38,58,male,English,AmE,graduated college,""":""none""}",purse,belPost,neg-stop,0.85
+12984.199999999257,76,47,male,English,AmE,graduated college,""":""""}",purse,why,neg-stop,0.6
+29371.60000038147,54,58,female,English,AmE,some college,""":""""}",purse,why,neg-know,0
+15197.40000000596,32,39,male,English,AmE,graduated college,""":""""}",purse,belPost,neg-know,0.34
+15828,63,38,female,English,AmE,some college,"""}",purse,why,neg-know,0
+23303.400000095367,71,46,female,English,AmE,graduated college,". ""}",purse,belPost,neg-know,0.2
+34610.40000000037,34,57,female,English,AmE,some college,""":""""}",purse,why,neg-stop,0.89
+37203.10000000149,16,55,female,English,AmE,graduated college,""":""Thank you! ""}",purse,why,neg-stop,1
+13253.900000000023,15,40,female,English,AmE,hold a higher degree,""":""""}",purse,why,neg-know,0.46
+44055.10000000149,46,34,male,English,AmE,graduated college,""":""""}",purse,why,neg-stop,0
+46388.800000000745,61,70,female,English,AmE,hold a higher degree,""":""Rather short!  I like to engage with the surveys a bit more!""}",purse,belPost,neg-stop,1
+24317.900000095367,39,34,female,English,AmE,graduated college,""":""N/A""}",purse,belPost,neg-stop,0.3
+25911.19999999553,26,39,female,English,AmE,some college,""":""""}",purse,belPost,neg-stop,0.99
+20134.19999998808,22,42,male,English,AmE,hold a higher degree,""":""""}",purse,why,neg-know,0.63
+52143.999999999985,2,19,female,English,AmE,some college,""":""I'm curious as to what this is about""}",purse,belPost,neg-know,0.68
+12824.5,52,41,female,English,AmE,some college,""":""""}",purse,belPost,neg-know,0.85
+31657.20000000298,21,41,male,English,AmE,graduated high school,""":""""}",purse,why,neg-know,1
+25665.69999992847,45,36,female,English,AmE,graduated college,""":""""}",purse,belPost,neg-know,0.7
+20054,28,33,female,English,AmE,graduated college,""":""""}",purse,why,neg-stop,1
+31109.100000000093,72,32,male,English,AmE,graduated college,""":""""}",purse,why,neg-stop,0.94
+14247.800000190737,77,38,female,English,AmE,some college,""":""""}",purse,why,neg-stop,0.98
+18302.299999952316,25,38,male,English,AmE,some college,""":""""}",purse,why,neg-stop,0.41
+29302.39999999106,62,43,female,English,AmE,some college,""":""""}",purse,why,neg-stop,0.03
+12494.20000000298,68,35,male,English,AmE,some college,""":""""}",purse,belPost,neg-stop,0.81
+142867.79999995232,56,30,female,English,AmE,graduated college,""":""""}",purse,why,neg-know,0.34
+22279.099999904633,55,55,male,English,AmE,some college,""":""""}",purse,belPost,neg-know,0.19
+22408.80000000447,5,38,male,English,AmE,graduated college,""":""""}",purse,belPost,neg-know,0.29
+29981,50,63,preferNoToSay,English,AmE,some college,""":""""}",purse,belPost,neg-stop,0.85
+33118,3,64,female,English,AmE,graduated college,""":""""}",purse,belPost,neg-know,0.64
+23362.89999985695,31,42,female,English,AmE,hold a higher degree,""":""""}",purse,belPost,neg-stop,0.22
+14544.60000000149,67,34,female,English,AmE,hold a higher degree,""":""""}",purse,why,neg-know,0.19
+22366.60000038147,41,35,male,English,AmE,graduated college,""":""""}",purse,belPost,neg-stop,0.89
+29970.599999997765,69,56,male,English,AmE,graduated college,""":""""}",purse,belPost,neg-stop,0.71
+25854.10000002384,49,30,female,English,AmE,graduated college,""":""""}",purse,belPost,neg-stop,1

@@ -8,8 +8,18 @@ This folder presents the code for running the two pilots.
 
 ## models
 
-This folder contains the models presented in the paper, as well as the R code needed to evaluate the models and generate Figure 1.
+This folder contains the models presented in the paper, as well as the R code needed to evaluate the models and generate figures. 
+
+###
+
+###
+
+###
+
+###
+
+###
 
 ## results
 
-This folder contains the data for the two pilots, as well as the R analysis scripts to analyze the data and the figures that plot the results (panels a and b of Fig.4 in paper). 
+This folder contains the data for the two pilots, as well as the R analysis scripts to analyze the data and generate the result plots (panels a and b of Fig.4 in paper). 

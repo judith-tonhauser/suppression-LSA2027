@@ -1,3 +1,4 @@
+# pilot 02
 # conditionals with "stop" and "know", manipulating the QUD
 # preprocessing
 

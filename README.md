@@ -16,11 +16,19 @@ This folder contains the models presented in the paper, as well as the R code ne
 
 ### model-1a.wppl
 
+This is the model for sentence (1a); it is identical to the model described in section 3.1 of Scontras & Tonhauser 2026 (Meaning), a simplified version of the model described in section 3 of Scontras & Tonhauser 2025 (SuB).
+
 ### model-1b-conditional.wppl
+
+This is the model for the conditional sentence (1b).
 
 ### model-1c-conjunction.wppl
 
+This is the model for the conjunction sentence (1c).
+
 ### model-evaluation.R
+
+This is the R code used to evaluate the models, generate the model predictions and create Fig.1.
 
 ## results
 

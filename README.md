@@ -40,4 +40,4 @@ This folder contains the data for the two pilots, as well as the R analysis scri
 
 ## other files
 
-### helpers.R contains R code needed in both the directory 'models' and 'results'.
+helpers.R contains R code needed in both the directory 'models' and 'results'.
